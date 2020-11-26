@@ -1,0 +1,1 @@
+ssh -i "/Users/timothyakana/Documents/Hack_Reactor/FEC/proxy/fec_proxy.pem" ubuntu@ec2-52-53-174-163.us-west-1.compute.amazonaws.com
