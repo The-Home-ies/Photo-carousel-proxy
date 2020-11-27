@@ -57,8 +57,8 @@ module.exports = {
     bundle: 'bundle.js',
   },
   service4: {
-    api: '/rooms/:id',
-    url: 'http://localhost:3004',
-    bundle: 'bundle.js',
+    api: '/:id/places',
+    url: 'http://3.101.85.97:3004',
+    bundle: '/:id/main.js',
   },
 };
