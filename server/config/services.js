@@ -44,7 +44,7 @@
 module.exports = {
   service1: {
     api: '/',
-    url: '204.236.160.152:3001',
+    url: 'http://204.236.160.152:3001',
     bundle: '/:id/bundle.js',
   },
   service2: {
