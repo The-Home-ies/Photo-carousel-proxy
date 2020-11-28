@@ -38,6 +38,7 @@
     url: 'http://localhost:3004',
     bundle: 'bundle.js',
   }
+  test
 */
 
 module.exports = {
