@@ -59,7 +59,7 @@ module.exports = {
   },
   service4: {
     api: '/:id/places',
-    url: 'http://3.101.85.97:3004',
+    url: 'http://13.56.236.23:3004',
     bundle: '/:id/main.js',
   },
 };
