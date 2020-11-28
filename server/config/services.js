@@ -52,9 +52,9 @@ module.exports = {
     bundle: 'bundle.js',
   },
   service3: {
-    api: '/',
-    url: 'http://localhost:3003',
-    bundle: 'bundle.js',
+    api: '/review-listings/:id/reviews',
+    url: 'http://3.134.82.244:3003/',
+    bundle: '/:id/bundle.js',
   },
   service4: {
     api: '/:id/places',
