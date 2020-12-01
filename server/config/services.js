@@ -38,27 +38,28 @@
     url: 'http://localhost:3004',
     bundle: 'bundle.js',
   }
+  test
 */
 
 module.exports = {
   service1: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3001',
-    bundle: 'app.js',
+    api: '/',
+    url: 'http://204.236.160.152:3001',
+    bundle: '/:id/bundle.js',
   },
   service2: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
+    api: '/listings/:id',
+    url: 'http://18.217.62.125:3002',
+    bundle: '/listings/:id/build/bundle.js',
   },
   service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
+    api: '/review-listings/:id/reviews',
+    url: 'http://3.134.82.244:3003/',
+    bundle: '/:id/bundle.js',
   },
   service4: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3004',
-    bundle: 'app.js',
+    api: '/:id/places',
+    url: 'http://54.151.93.23:3004',
+    bundle: '/:id/main.js',
   },
 };
